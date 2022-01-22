@@ -1,0 +1,106 @@
+/* header */
+/* navigation */
+*{margin:0;padding: 0;}
+   ul{
+       list-style-type: none;
+       overflow: hidden;
+       background-color: rgba(255,255,255,0.8);
+       position: fixed;
+       top: 0;
+       width: 100%;
+   }  
+   li {
+       float: left;
+   }   
+   li a {
+	   font-size:25px;
+       display: block;
+       color: black;
+       text-align: center;
+       padding: 30px 80px;
+       text-decoration: none;
+   }   
+   li a:hover:not(.active) {
+       background-color:white;
+	   border-radius:60px;
+   }   
+   .active {
+       background-color:#A46C41;
+	   border-radius:60px;
+   }
+   
+/* logo */
+.logo{
+	background:white 0.5;
+	right:150px;
+	top:10px;
+	position:absolute;
+}
+/* end logo */
+/* end header */
+
+
+
+
+
+/* Main part */
+
+
+/* body */
+body{
+	background:url(../images/background.jpg);
+}
+/* End body */
+
+
+.Salad{
+	position:absolute;
+	left:20px;
+	top:100px;
+}
+.lamingtons{
+	position:absolute;
+	left:450px;
+	top:100px;
+}
+.French_Toast_and_Bacon{
+	position:absolute;
+	left:880px;
+	top:100px;
+}
+
+.Sun_and_Moon_Sandwich{
+	position:absolute;
+	left:20px;
+	top:550px;
+}
+.Home_styles_soup_of_the_day{
+	position:absolute;
+	left:1100px;
+	top:550px;
+}
+.Cheeseburger{
+	position:absolute;
+	left:1550px;
+	top:550px;
+}
+
+/* end main part */
+
+
+
+
+/* footer */
+.contact{
+	margin:0px;
+	padding:0px;
+	bottom:10px;
+	left:2%;
+	width:95%;
+	height:60px;
+	text-align:center;
+	background-color:#A46C41;
+	position:absolute;
+	border-radius:80px;
+}
+/* end footer */

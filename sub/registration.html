@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sun and Mood Cafe - registration</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+<link rel="stylesheet" href="../css/style_registration.css">
+<script src= "sub.js"> </script> 
+</head>
+<body>
+
+
+<!-- Header -->
+<header>
+<!-- Navigation -->
+<ul>
+	<li><a href="../index.html">Home</a></li>
+	<li><a href="menu.html">Menu</a></li>
+	<li><a href="weekly_specials.html">Weekly Specials</a></li>
+	<li><a href="about_us.html">About Us</a></li>
+	<li><a class="active" href="registration.html">Singn up</a></li>
+</ul>
+<!-- end Navigation -->
+<!-- Logo -->
+<div class="logo">
+<a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+</div>
+<!-- End logo -->
+</header>
+<!-- End header -->
+
+
+<!-- Main part -->
+<div class="sub">
+
+<form name="myForm" action="singn.php" onsubmit="return validateForm()" method="post"> 
+Name*: <br><input type="text" name="name"> <br>
+Email address*: <br><input type="text" name="email"> <br>
+<br>
+Birth day:<input placeholder="DD/MM" type="text" name="birthday">
+<br>
+
+<input type="checkbox" name="Salads" value="Salads"> Salads
+<input type="checkbox" name="Lamingtons" value="Lamingtons"> Lamingtons
+<input type="checkbox" name="Sun_and_Moon_Sandwich" value="Sun and Moon Sandwich"> Sun and Moon Sandwich
+<input type="checkbox" name="French_Toast_and_Bacon" value="French Toast and Bacon"> French Toast and Bacon
+<input type="checkbox" name="Home_styles_soup_of_the_day" value="Home styles soup of the day"> Home styles soup of the day
+<input type="checkbox" name="Cheeseburger" value="Cheeseburger"> Cheeseburger
+
+<label for="avail" >product interests: </label><br>
+<br>
+<input type="checkbox" id="agree" name="agree" required>
+<lable for="agree">i agree approval to be added to the Sun and Moon Cafe email list.</lable>
+
+<br>
+<input type="submit" value="Submit">
+</form> 
+</div>
+
+
+
+<!-- End Main part -->
+
+
+
+<!-- footer part -->
+<footer>
+<div class="contact">
+<br>
+<p>Contacts: 0455 9999 555 | Catering: 0433 3333 999  | Address: 223 Powell St in Bowen, Queensland</p>
+</div>
+</footer>
+<!-- end footer part -->
+
+</body>
+</html>
